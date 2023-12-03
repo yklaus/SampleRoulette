@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        tools:ignore="UselessParent">
+
+        <com.example.sampleroulette.Roulette
+            android:id="@+id/roulette"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.example.sampleroulette.InvertedTriangle
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>
